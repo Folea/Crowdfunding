@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<proyectos xmlns="http://tds.financiacionexterna.org"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://tds.financiacionexterna.org financiacion.xsd">
+
+	<proyecto cuenta="2021 1234 21 1212345456" titular="Juan Antonio Ruiz Soler" id="3" fecha_apertura="2013-12-12">
+		<ingreso fecha="2014-05-13" importe="123.50" remitente="Diego Martinez Leon"
+			concepto="Apoyo para el proyecto de Juan" />
+		<ingreso fecha="2014-01-05" importe="52" remitente="Francisco Sena Riquelme"
+			concepto="Animo con el proyecto. Tu amigo Francisco." />
+		<ingreso fecha="2014-11-27" importe="21.25" remitente="MAria Bermejo Buytrago"
+			concepto="Ayua para el proyecto de Juan." />
+	</proyecto>
+
+	<proyecto cuenta="2121 2103 19 1231234561" titular="Marta Gil Noguera" id="1">
+		<ingreso fecha="2014-09-11" importe="344.50" remitente="Ramon Valenciaga Suarez" concepto="De tus colegas de trabajo." />
+	</proyecto>
+	
+</proyectos>

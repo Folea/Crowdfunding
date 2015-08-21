@@ -1,0 +1,30 @@
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USUARIO" not found; SQL statement:
+SELECT ID FROM USUARIO WHERE ID <> ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROYECTO" not found; SQL statement:
+SELECT ID FROM PROYECTO WHERE ID <> ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "APOYO" not found; SQL statement:
+SELECT ID FROM APOYO WHERE ID <> ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CATEGORIA" not found; SQL statement:
+SELECT ID FROM CATEGORIA WHERE ID <> ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "RECOMPENSA" not found; SQL statement:
+SELECT ID FROM RECOMPENSA WHERE ID <> ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "MENSAJE" not found; SQL statement:
+SELECT ID FROM MENSAJE WHERE ID <> ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "NOTIFICACION" not found; SQL statement:
+SELECT ID FROM NOTIFICACION WHERE ID <> ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USUARIO_PROYECTO" not found; SQL statement:
+SELECT proyectosVotados_ID FROM USUARIO_PROYECTO WHERE proyectosVotados_ID <> proyectosVotados_ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROYECTO_RECOMPENSA" not found; SQL statement:
+SELECT recompensas_ID FROM PROYECTO_RECOMPENSA WHERE recompensas_ID <> recompensas_ID [42102-187]
+07-17 10:37:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "RECOMPENSA_APOYO" not found; SQL statement:
+SELECT apoyos_ID FROM RECOMPENSA_APOYO WHERE apoyos_ID <> apoyos_ID [42102-187]

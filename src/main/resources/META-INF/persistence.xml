@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0"
+             xmlns="http://java.sun.com/xml/ns/persistence"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+    <persistence-unit name="apoyanos" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>model.Usuario</class>
+        <class>model.Proyecto</class>
+        <class>model.Apoyo</class>
+        <class>model.Categoria</class>
+        <class>model.Recompensa</class>
+        <class>model.Mensaje</class>
+        <class>model.Notificacion</class>
+        <class>model.PoliticaComisiones</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
+            <property name="javax.persistence.jdbc.url"    value="jdbc:h2:.\database\apoyanos" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="" />
+            <!--<property name="eclipselink.jdbc.password" value="root"/>-->
+            <!--<property name="eclipselink.jdbc.user" value="root"/>-->
+            <!--<property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/apoyanos"/>-->
+            <!--<property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>-->
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+            <property name="eclipselink.logging.level" value="OFF"/>
+        </properties>
+    </persistence-unit>
+</persistence>

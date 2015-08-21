@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="FinanciacionExterna">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/FinanciacionExterna.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jgoodies-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jgoodies-forms.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
